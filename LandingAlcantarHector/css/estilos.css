@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/02/2023, 06:32:31 PM
+    Author     : Hp 980020888
+*/
+
+/* Establece la imagen de fondo del documento
+   y si no hay imagen el color de fondo */ 
+body {
+    background: beige url('imagenes/itson.jpg');
+}
+
+/*
+ * Plantilla
+ *
+ * Hoja de estilos externa usada como plantilla para un sitio web
+ */
+
+/*
+ * plantilla.css
+ *
+ * Hoja de estilos externa usada como plantilla para un sitio web
+ */
+
+/* Barra de titulo */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    border: 1px solid Silver;
+    text-align: center;
+    background: Beige url("imagenes/carro1.jpg"); 
+}/* Barra de navegacion */
+
+
+nav {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 145px;
+    height: calc(100% - 120px);
+    border: 1px solid Silver;
+    background: Beige url("imagenes/itson.jpg");
+    
+}
+
+
+/* Principal */
+main {
+    position: absolute;
+    height: calc(100% - 154px);
+    width: calc(100% - 154px);
+    top: 152px;
+    left: 152px;
+    background: Beige url("imagenes/carro1.jpg");
+}
+
+/* Imagen en la barra de titulo */
+img#logo {
+    float: left;
+}
+
+a#email {
+    float: right;
+    border: 1px solid Silver;
+}
+
+/* Lista de ligas en la barra de navegación */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:150px;
+}
+
+/* Elementos de la lista de ligas en la barra de navegación */
+nav li {
+    position: relative;
+    width:150px;
+    float:left;
+    clear:left;
+}
+
+/* Ligas en la barra de navegación */
+nav a {
+    display: block;
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 0 10px;
+    width: 130px;    
+    border-bottom: 1px solid Silver;
+}
+
+nav a:link {
+    color: Blue; 
+}
+
+nav a:visited {
+    color: Blue; 
+}
+
+nav a:hover {
+    color: Black;
+    background-color: lightgray; 
+}
+
+main    h1{
+    text-align: center;
+}
+
+main {
+    overflow: scroll;
+}
+ 
+/*
+ * Posiciones
+ *
+ * Esta hoja de estilos en cascada externa ilustra reglas de estilo con
+ * las propiedades de posicion: position, top, right, bottom, left. 
+ */ 
+
+/* Esta regla de estilo establece que los elementos con clase
+   "fija" tendrán posición fija */
+.fija {
+    position: fixed;
+}
+
+/* Esta regla de estilo establece el borde, color de fondo,
+   ancho y alto de los elementos con clase "padre" */
+.padre {
+    border: 1px solid blue;
+    background-color: rgb(175,175,175);    
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    top: 150px;
+}
+
+/* Esta regla de estilo establece el borde y color de fondo
+   de los elementos con clase "hijo"  */
+.hijo {
+    border: 1px solid red;
+    background-color: rgb(200,200,200);
+
+/* Esta regla de estilo establece la posicion de los
+   elementos con clase que contenga las palabras
+   "fija", "hijo" y "padre4" */
+.fija.hijo.padre4 {
+    top: 400px;
+    right: 20px;
+}
+
+/*
+ * Grids
+ *
+*/
+
+/* Este es el contenedor grid para la distribución
+   de la página. Tiene dos columnas y tres filas */
+.contenedorGrid {
+    display: grid;
+    grid-template-rows: 120px calc(100vh - 222px) 100px;
+    grid-template-columns: 150px calc(100vw - 151px);
+}
+
+/* Pie de pagina. Este elemento esta en la tercera fila
+   y abarca dos columnas */
+
+footer {
+    grid-column: 1 / span 2;
+    text-align: center;
+    border-top: 1px solid Silver;
+    background: Beige url("imagenes/isw-admisiones.jpeg"); 
+}
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+    descripcion.html
+
+    Hector Hervey Alcantar
+    ID: 164785
+
+Este sitio contiene informacion sobre las materias de ITSON,
+en esta pagina podras ingresar a ver los horarios segun el
+semestre del alumno, las horas de las clases divididos por grupo
+y clave, tambien datos generales de cada curso. Aparte de eso
+pondran ver el nombre del maestro y una liga a la pagina de la materia
+(si existe), podran ver sus aficiones para ver lo que le gusta y
+finalmente abra una pagina de contacto para contactar al programador 
+de la pagina mediante un nombre, email y o un chat.
+-->
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Creacion de un Sitio Web Estatico con HTML</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <body>
+    <div class="contenedorGrid">
+    </head>
+
+<body bgcolor="#006DB6" link="orange" vlink="red" alink="yellow">
+
+<body background="imagenes/carro1.jpg" bgcolor=royalblue text="#00ee00">
+
+<header>
+    <img id="logo" src="imagenes/yaquis.JPG" alt="mi foto" width="150" height="150" />
+            <a id="email" href="mailto://hector.alcantar@potros.itson.edu.mx"><img src="imagenes/GifOutlook.gif" alt="GifOutlook" align="right" width="130" height="130"/></a>
+    <p align="center">Programando con HTML, Hector Hervey Alcantar 164785</p>
+</header>
+
+   
+<nav style="background: blue; font-size: medium">
+    <a style="margin-left: 20px;margin-right: 20px;text-decoration:none" href="index.html"> Inicio</a>
+    <a style="margin-right: 20px;text-decoration:none" href="horario.html"> Horario</a>
+    <a style="margin-right: 20px;text-decoration:none" href="descripcion.html"> Descripción</a>
+    <a style="margin-right: 20px;text-decoration:none" href="aficiones.html"> Aficiones</a>
+    <a style="margin-right: 20px;text-decoration:none" href="contactame.html"> Contactame</a>
+</nav>
+
+<main>
+<h1 align="left">Descripcion</h1>
+<style type="text/css">
+.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr {background-color:#d4e3e5;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable tr:hover {background-color:#ffffff;}
+</style>
+
+<table class="tftable" border="1">
+<tr><th>Nombre</th><th>Clave</th><th>Carrera</th><th>Nombre del Maestro</th><th>Aula</th><th>Horario</th><th>Descripcion General de la Materia</th><th>Liga a la Pagina de la Materia</th></tr>
+<tr><td>Aplicaciones WEB</td><td>C 1078C-3</td><td>Ingenieria en Software</td><td>Manuel Domitsu Kono</td><td>Remota</td><td>Martes y Jueves 10:00AM -11:30AM</td><td>
+<p>El curso de Aplicaciones Web, se imparte a los alumnos de Ingeniería en Software del ITSON en el sexto semestre.</p>
+<p>En este curso el alumno aprende a desarrollar, probar y desplegar aplicaciones Web.</p>
+<p>Este curso provee las herramientas básicas para los cursos posteriores, como los cursos de Sistemas Distribuidos y Cómputo Móvil.</p> 
+<br></td><td><a href="ClaseM1.html">Aplicaciones Web</a></td></tr>
+<tr><td>Diseño Interactivo de Software</td><td>C 1087C-1</td><td>Ingenieria de Software</td><td>Leonardo Javier Gutierrez</td><td>Remota</td><td>Martes y Jueves 11:30AM - 1:00PM</td><td>
+<p>Diseñar sistemas computacionales siguiendo metodologías centradas en el usuario.</p>
+<p>Identificar necesidades particulares de los usuarios y los contextos donde se llevarán a cabo actividades a través de técnicas de<br>
+recolección de datos cualitativas y cuantitativas.</p>
+<p>Traducir necesidades en requerimientos del diseño del sistema que se esté diseñando.</p>
+
+</td><td><a href="ClaseM2.html">Diseño Interactivo de Software</a></td></tr>
+<tr><td>Metodos Agiles de Desarrollo</td><td>C 1092C-4</td><td>Ingenieria en Software</td><td>Jose Gamaliel Rivera Ibarra</td><td>Remota</td><td>Martes y Jueves 4:30PM - 6:00PM</td><td>
+<p>Este curso pertenece al 7mo semestre, del bloque, administración de proyectos.</p>
+<p>El estudiante aprenderá a aplicar una metodología ágil para administrar un proyecto de software</p>
+<p>Desarrollará competencia genéricas tales como comunicación efectiva y trabajo en equipo.</p>
+<p>Se requiere como pre requisitos administración de proyectos de software.</p>
+</td><td><a href="ClaseM3.html">Metodos Agiles de Desarrollo</a></td></tr>
+<tr><td>Arquitectura de Software</td><td>C 1081C-4</td><td>Ingenieria en Software</td><td>Jose Gamaliel Rivera Ibarra</td><td>Remota</td><td>Lunes y Miercoles 6:00PM - 7:30PM</td><td>
+<p>Este curso provee los conocimientos para desarrollar el modelo arquitectónico de una solución de software.</p>
+<p>Refuerza los conocimientos relacionados con la creación del diseño detallado de la solución, utilizando<br>
+como notación el Lenguaje de Modelado Unificado (UML) asegurando el apego a los principios y <br>
+buenas prácticas que permitan crear modelos que cumplan con los estándares de calidad establecidos.</p>
+</td><td><a href="ClaseL1.html">Arquitectura de Software</a></td></tr>
+</table>
+</main>
+
+<footer>
+<p align="center";><font color="orange">&copy; Hector Hervey Alcantar Molina </font></p>
+</footer>
+</body>
+</html>
